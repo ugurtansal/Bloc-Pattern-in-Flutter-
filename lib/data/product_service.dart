@@ -1,4 +1,4 @@
-import 'dart:nativewrappers/_internal/vm/lib/internal_patch.dart';
+
 
 import 'package:bloc_pattern/models/Product.dart';
 
