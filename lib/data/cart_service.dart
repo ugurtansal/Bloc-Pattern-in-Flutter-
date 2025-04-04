@@ -18,7 +18,9 @@ class CartService{
     cartItems.remove(item);
   }
 
-  static List<Cart> getCart(){
+  static List<Cart> getCart() {
+    print("Sepetteki ürünler: ${cartItems.map((e) => e.product.name).toList()}");
     return cartItems;
   }
+
 }
